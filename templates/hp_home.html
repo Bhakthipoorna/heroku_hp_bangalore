@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+    <h2>House Price advanced prediction</h2>
+
+<form action="{{url_for('hp_predict')}}" method="post">
+    <p>Square Feet</p>
+    <p><input type="text" name="sqft"></p>
+    <p>Place</p>
+    <p><input type="text" name="place"></p>
+    <p>Years Old</p>
+    <p><input type="text" name="yo"></p>
+    <p>Total floor</p>
+    <p><input type="text" name="tf"></p>
+    <p>BHK</p>
+    <p><input type="text" name="bhk"></p>
+
+    <p><input type="submit" value="predict"> </p>
+
+</form>
+</body>
+</html>
